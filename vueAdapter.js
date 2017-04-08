@@ -3,9 +3,7 @@ var path = require('path');
 var ora = require('ora');
 var home = require('user-home');
 
-var vueCliRoot = findup("node_modules/vue-cli");
-
-// var vueCliRoot = '../vue-cli';
+var vueCliRoot = '../vue-cli';
 var logger = require(`${vueCliRoot}/lib/logger`);
 var generate = require(`${vueCliRoot}/lib/generate`);
 var checkVersion = require(`${vueCliRoot}/lib/check-version`)
