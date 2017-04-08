@@ -1,0 +1,27 @@
+{
+  "name": "sails-generate-webpack-vue",
+  "version": "0.12.3",
+  "description": "Generator that invoke vue-cli to setup a full webpack project inside sails.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'See tests in the GitHub repo for Sails core."
+  },
+  "keywords": [
+    "frontend",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "repository": "https://github.com/tarrask/sails-generate-webpack-vue",
+  "author": "Damien Plumettaz",
+  "license": "MIT",
+  "dependencies": {
+    "vue-cli": "^2.8.1"
+  },
+  "sailsGenerator": {
+    "type": "frontend",
+    "behavior": "Implements `sails generate gruntfile`.",
+    "sailsVersion": "^0.12.8"
+  }
+}
