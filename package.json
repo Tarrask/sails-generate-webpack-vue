@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-webpack-vue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generator that invoke vue-cli to setup a full webpack project inside sails.js",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "generator",
     "sails",
     "generate",
+    "vuejs",
     "plugin"
   ],
   "repository": "https://github.com/tarrask/sails-generate-webpack-vue",
