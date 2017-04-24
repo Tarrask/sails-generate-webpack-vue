@@ -23,8 +23,6 @@ var clone = false;
 var tmp = path.join(home, '.vue-templates', template.replace(/\//g, '-'))
 
 function runWrapper(scope, cb) {
-  console.log(scope);
-  template = template;
   hasSlash = template.indexOf('/') > -1
   to = scope.rootPath;
   run(cb);
